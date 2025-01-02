@@ -1,8 +1,8 @@
 import Image from "next/image"
 export default function Footer (){
     return (
-        <div className="flex flex-col  sm:px-12 sm:w-full h-[350px] bg-[#C1DCDC] mt-24" id="contact">
-            <div className="flex justify-between">
+        <div className="flex flex-col sm:px-12 bg-[#C1DCDC] mt-24" id="contact">
+            <div className="flex flex-col justify-between md:flex-row">
                 <div className="flex flex-col gap-24">
                     <div className="w-48 h-14 p-8">
                         <h3 className="sm:text-xl mb-4 font-bold font-serif">GREENMIND</h3>
@@ -35,20 +35,20 @@ export default function Footer (){
                         </div>
                     </div>
                 </div>
-                <div className="flex">
-                    <div className="flex flex-col gap-4 sm:gap-8 pt-8 px-2 sm:p-6">
+                <div className="flex w-full justify-between md:justify-evenly p-6">
+                    <div className="flex flex-col gap-4">
                         <h3 className="font-bold sm:text-lg">Information</h3>
                         <p className="text-gray-500">About</p>
                         <p className="text-gray-500">Product</p>
                         <p className="text-gray-500">Blog</p>
                     </div>
-                    <div className="flex flex-col gap-4 sm:gap-8 pt-8 px-2 sm:p-6">
+                    <div className="flex flex-col gap-4">
                         <h3 className="font-bold sm:text-lg">Company</h3>
                         <p className="text-gray-500">Community</p>
                         <p className="text-gray-500">Career</p>
                         <p className="text-gray-500">Our story</p>
                     </div>
-                    <div className="flex flex-col gap-4 sm:gap-8 pt-8 px-2 sm:p-6">
+                    <div className="flex flex-col gap-4">
                         <h3 className="font-bold sm:text-lg">Contact</h3>
                         <p className="text-gray-500">Greeting Started</p>
                         <p className="text-gray-500">Pricing</p>
@@ -56,7 +56,7 @@ export default function Footer (){
                     </div>
                 </div>
             </div>
-            <div className="px-8 text-gray-500 mt-12">2023 all Right Reserved Term of use GREENMIND</div>
+            <div className="px-8 text-gray-500 text-center p-4">2024 all Right Reserved Term of use GREENMIND</div>
         </div>
     )
 }
