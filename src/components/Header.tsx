@@ -44,7 +44,7 @@ export default function Header() {
             <Image src={"/svg/cart.svg"} alt="cart" width={24} height={24} />
           </p>
           </Link>
-          <Image src={"/svg/person.svg"} alt="cart" width={24} height={24} />
+          <Image src={"/svg/Person.svg"} alt="cart" width={24} height={24} />
           <Image src={"/svg/hamburgur.svg"} alt="cart" width={24} height={24} />
         </div>
       </div>
